@@ -2,7 +2,7 @@
 I am recording how I'm confiuring tinydm. This is here cause I know I'll forget how to do it and I don't want to search. If it helps you, your welcome. else sorry for wasting your time
 
 ## compositor details, location,config,etc,etc (of tinydm)
-file location - ``` var/lib/tinydm/default-session.desktop```<br>
+file location - ` var/lib/tinydm/default-session.desktop`<\br>
 Original contents:-
 ``` 
 [Desktop Entry]
@@ -18,9 +18,8 @@ DesktopNames=Sway
 Keywords=launch;Sway;desktop;session;
 
 ```
-<br>
-If you want to change the compositor change the 
-``` TryExec=/usr/bin/<composito_name> ``` refer to [Wayland-compositors](https://wiki.archlinux.org/title/Wayland#Compositors) for more details.
+<\br>
+If you want to change the compositor change the `TryExec=/usr/bin/<compositor_name>` refer to [Wayland-compositors](https://wiki.archlinux.org/title/Wayland#Compositors) for more details.
 New contents:-
 ```
 [Desktop Entry]
