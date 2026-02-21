@@ -35,7 +35,8 @@ DesktopNames=KWin
 Keywords=launch;KWin;desktop;session;
 ```
 
-Finally restart tinydm using (reboot prefered tho)
+Finally restart tinydm using (reboot prefered tho)</br>
 `sudo rc-service tinydm restart` or `sudo systemctl restart tinydm`
-you could always just open a new tty and try running ` sudo tinydm-set-session -f -s var/lib/tinydm/default-session.desktop`
+you could always just open a new tty and try running </br>
+` sudo tinydm-set-session -f -s var/lib/tinydm/default-session.desktop`
 
